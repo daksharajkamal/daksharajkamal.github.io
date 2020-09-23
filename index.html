@@ -20,7 +20,96 @@
             <li><a href="">Contact</a></li>
           </ul>
         </nav>
+        <div class="user">
+          <p>Daksharaj Kamal</p>
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div class="sidebar">
+        <img src="" alt="" class="search-icon" />
+        <div class="social-links">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+        <img src="" alt="" class="info-icon" />
+      </div>
+      <div class="msg-container">
+        <div id="slider">
+          <div class="msg-col">
+            <h1>Hello There</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Distinctio adipisci laboriosam debitis a aspernatur ratione harum
+              eveniet, sapiente rerum obcaecati, autem rem neque quis ipsa amet
+              in saepe. Veritatis, nulla?
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="msg-col">
+            <h1>Hola There</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Distinctio adipisci laboriosam debitis a aspernatur ratione harum
+              eveniet, sapiente rerum obcaecati, autem rem neque quis ipsa amet
+              in saepe. Veritatis, nulla?
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="msg-col">
+            <h1>Hello Here</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Distinctio adipisci laboriosam debitis a aspernatur ratione harum
+              eveniet, sapiente rerum obcaecati, autem rem neque quis ipsa amet
+              in saepe. Veritatis, nulla?
+            </p>
+            <a href="">Learn More</a>
+          </div>
+          <div class="msg-col">
+            <h1>Hello</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Distinctio adipisci laboriosam debitis a aspernatur ratione harum
+              eveniet, sapiente rerum obcaecati, autem rem neque quis ipsa amet
+              in saepe. Veritatis, nulla?
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="controller">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div id="line4"></div>
+        <div id="active"></div>
       </div>
     </div>
+    <script>
+      var slider = document.getElementById("slider");
+      var active = document.getElementById("active");
+      var line1 = document.getElementById("line1");
+      var line2 = document.getElementById("line2");
+      var line3 = document.getElementById("line3");
+      var line4 = document.getElementById("line4");
+      line1.onclick = function () {
+        slider.style.transform = "translateX(0)";
+        active.style.top = "0px";
+      };
+      line2.onclick = function () {
+        slider.style.transform = "translateX(-25%)";
+        active.style.top = "80px";
+      };
+      line3.onclick = function () {
+        slider.style.transform = "translateX(-50%)";
+        active.style.top = "160px";
+      };
+      line4.onclick = function () {
+        slider.style.transform = "translateX(-75%)";
+        active.style.top = "240px";
+      };
+    </script>
   </body>
 </html>
