@@ -26,10 +26,11 @@
   width: 155px;
 }
 .logo img {
-  width: 30px;
+  width: 35px;
   position: relative;
   z-index: 10;
   cursor: pointer;
+  left: 25px;
 }
 nav {
   flex: 1;
