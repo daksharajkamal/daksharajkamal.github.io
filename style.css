@@ -85,3 +85,48 @@ nav ul li a {
   width: 20px;
   display: block;
   margin: 220px
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+  }
+  .logo {
+    width: 120px;
+  }
+  nav ul li {
+    margin-right: 30px;
+  }
+  .user {
+    font-size: 14px;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    left: 0;
+  }
+  .msg-container {
+    width: 90%;
+    left: 5%;
+  }
+  .msg-col h1 {
+    font-size: 50px;
+  }
+  .msg-col p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .skills li {
+    padding: 5px;
+  }
+  .msg-col a {
+    font-size: 12px;
+    padding: 8px 20px;
+    margin-top: 15px;
+  }
+  .controller {
+    display: none;
+  }
+}
